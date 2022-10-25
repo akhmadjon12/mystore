@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #fff !important;
+  color: #000000 !important;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-4,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.user-dashboard {
+  padding: 60px 0 20px;
+}
+
+.user-dashboard .col-md-3 > .card {
+  border: 2px solid #ddd;
+  padding: 30px 0;
+}
+
+.user-dashboard .col-md-3 > .card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.user-dashboard .col-md-3 > .card ul {
+  list-style: none;
+  margin-left: -33px;
+}
+
+.user-dashboard .col-md-3 > .card ul li {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  cursor: pointer;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  border-bottom-right-radius: 60%;
+  border-top-right-radius: 60%;
+}
+
+.user-dashboard .col-md-3 > .card ul li i {
+  padding-right: 10px;
+}
+
+.user-dashboard .col-md-3 > .card ul li.active, .user-dashboard .col-md-3 > .card ul li:hover {
+  background-color: #ED165F;
+  color: #fff;
+}
+
+.user-dashboard .col-md-3 > .card .btn-danger {
+  background-color: #ED165F !important;
+  border: 1px solid #ED165F;
+  width: 80%;
+  font-weight: 600;
+  margin: 200px 10% 20px;
+}
+
+.user-dashboard .col-md-3 > .card .btn-danger:hover {
+  color: #ED165F;
+  background-color: #fff !important;
+}
+
+@media only screen and (max-width: 1199px) {
+  .user-dashboard .col-md-3 > .card h3 {
+    font-size: 16px;
+  }
+  .user-dashboard .col-md-3 > .card ul li {
+    padding: 15px 20px 15px 30px;
+  }
+}
+/*# sourceMappingURL=userDashboard.css.map */

@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #fff !important;
+  color: #000000 !important;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-4,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.shopping-cart-page {
+  padding: 60px 0 20px;
+}
+
+.shopping-cart-page h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.shopping-cart-page table {
+  margin: 50px 0;
+}
+
+.shopping-cart-page table th {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.shopping-cart-page table td {
+  margin: 10px 0;
+  padding: 30px 10px;
+  text-align: center;
+  border: 3px solid #F5F5F5;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.shopping-cart-page table td img {
+  width: 120px;
+}
+
+.shopping-cart-page table td h5 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0 20px;
+}
+
+.shopping-cart-page table td p {
+  padding: 0 20px;
+}
+
+.shopping-cart-page table td button {
+  color: #ED165F;
+  margin: 20px 20px 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.shopping-cart-page table td button:hover {
+  color: #fff;
+  background-color: #ED165F;
+}
+
+.shopping-cart-page table td button i {
+  margin-right: 6px;
+}
+
+.shopping-cart-page .calc-all {
+  text-align: right;
+}
+
+.shopping-cart-page .calc-all h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.shopping-cart-page .calc-all p {
+  font-size: 18px;
+  letter-spacing: .2px;
+}
+
+.shopping-cart-page .calc-all .btn {
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #ED165F;
+  margin: 20px 0 0 60px;
+  padding: 10px 60px;
+}
+
+.shopping-cart-page .calc-all .btn.red {
+  background-color: #ED165F;
+  color: #fff;
+}
+
+.shopping-cart-page .calc-all .btn.red:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+.shopping-cart-page .calc-all .btn:hover {
+  background-color: #ED165F;
+  color: #fff;
+}
+/*# sourceMappingURL=shoppingCart.css.map */

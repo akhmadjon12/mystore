@@ -1,0 +1,155 @@
+@import '../basic';
+
+.checkout-page {
+    padding: 60px 0 20px;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 800;
+        padding: 0 0 30px;
+        i {
+            font-size: 14px;
+            padding: 5px;
+            margin-right: 15px;
+            border-radius: 50%;
+            color: #fff;
+            background-color: green;
+        }
+    }
+    .card {padding: 40px 25px;}
+    .shipping-address {
+        label {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        input, textarea {
+            font-weight: 600;
+            letter-spacing: .2px;
+            padding: 7px 20px;
+            border: 2px solid #888;
+            border-radius: 5px;
+            outline: none;
+            transition: .3s ease;
+            margin: 10px 0 0;
+
+            &:focus {border: 2px solid $black;}
+        }
+
+        > p {
+            font-size: 14px;
+            font-weight: 600;
+            
+            > i {
+                font-size: 12px;
+                color: #fff; 
+                background-color: green; 
+                padding: 5px;
+                margin-right: 15px; 
+                border-radius: 50%;
+            }
+        }
+
+    }
+    .delivery-method > div > div {
+        position: relative;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+
+        &.active::before {
+            content: '';
+            position: absolute;
+            width: 13px; height: 13px;
+            border-radius: 50%;
+            background-color: green;
+            top: 2px; left: -5px;
+        }
+
+    }
+
+    .payment-method {
+        margin: 25px 0 ;
+
+        h5 {
+            position: relative;
+            font-size: 18px;
+            font-weight: 600;
+            padding-left: 30px;
+            cursor: pointer;
+
+            &::before {
+                position: absolute;
+                content: '';
+                width: 13px; height: 13px;
+                border-radius: 50%;
+                background-color: #777;
+                top: 3px; left: 5px;
+            }
+            &.active::before {
+                background-color: green;
+            }
+        }
+    }
+
+    .item {
+        > img {
+            width: 30% ;
+            float: left;
+            padding-top: 5%;
+        }
+        .info {
+            width: 70%;
+            float: left;
+            padding: 10px 0 10px 20px;
+            font-weight: 600 ;
+            h5 {
+                font-size: 16px;
+                font-weight: 600 ;
+                margin: 0;
+            }
+            p {margin: 3px 0;font-size: 14px;}
+            .btn {
+                width: 25px;
+                height: 25px;
+                font-size: 20;
+                font-weight: 800;
+                margin: 10px;
+                padding: 0;
+                color: #fff;
+                background-color: $red;
+            }
+        }
+    }
+
+    table tr {
+        font-weight: 600;
+        height: 40px;
+    }
+
+    .gift-part {
+        text-align: right;
+        p {
+            text-align: left !important;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 15px 0 0;
+        } 
+
+        .btn {
+            margin:  5px 10px;
+            font-weight: 600;
+            border: 1px solid $red;
+            &.red {background-color: $red; color: #fff;}
+        }
+    }
+
+    .btn-danger {
+        width: 100%;
+        background-color: $red;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin: 40px 0 0 ;
+    }
+}

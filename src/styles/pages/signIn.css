@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #fff !important;
+  color: #000000 !important;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-4,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.sign-in-page {
+  padding: 60px 0 20px;
+}
+
+.sign-in-page h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.sign-in-page p {
+  font-weight: 600;
+}
+
+.sign-in-page .col-md-6 .login-card {
+  width: 70%;
+  margin: 40px 0;
+}
+
+.sign-in-page .col-md-6 h3 {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.sign-in-page .col-md-6 label {
+  font-weight: 600;
+}
+
+.sign-in-page .col-md-6 input {
+  width: 100%;
+  padding: 10px 25px;
+  margin: 14px 0 20px;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid #777;
+  border-radius: 5px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  letter-spacing: .2px;
+}
+
+.sign-in-page .col-md-6 input:focus {
+  border: 1px solid;
+}
+
+.sign-in-page .col-md-6 input[type=button] {
+  border: 1px solid #ED165F;
+  background-color: #ED165F;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.sign-in-page .col-md-6 input[type=button]:hover {
+  color: #ED165F;
+  background-color: #fff;
+}
+
+.sign-in-page .rememberMe {
+  font-size: 14px;
+}
+
+.sign-in-page .rememberMe i {
+  color: #fff;
+  padding: 5px 4px 5px 5px;
+  background-color: #ED165F;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=signIn.css.map */

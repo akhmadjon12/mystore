@@ -1,0 +1,92 @@
+@import '../basic';
+
+.navbar {
+    height: 70px !important;
+    &.bg-light { background-color: $bg-color !important;}
+}
+
+.logo {
+    padding: 0 160px 0 30px;
+    &.mobile {
+        padding: 0;
+        display: none;
+    }
+}
+
+.nav-item {
+    padding: 0 17px;
+    position: relative;
+    
+    input {
+        width: 175px;
+        font-size: 12px;
+        padding: 3px;
+        border-radius: 0;
+        outline: none;
+        border: none !important;
+        border-bottom: 1px solid rgba($black, .5) !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+        letter-spacing: .2px;
+        margin-right: 20px;
+
+        &:focus {
+            border-bottom: 1px solid $red !important;
+        }
+    }
+}
+
+.nav-link {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: .2px;
+    font-weight: 600;
+    padding: 13px !important;
+    color: $black !important;
+
+    &.active {
+        color: $red !important;
+        font-weight: 800;
+        border-bottom: 1px solid $red;
+    }
+
+    .fa-shopping-cart, .fa-heart {
+        margin-left: -20px;
+    }
+}
+
+
+
+.fa-search {
+    position: absolute;
+    margin: -20px 0 0 175px;
+}
+
+.bullet-points {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    font-size: 9px;
+    background-color: $red;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 50%;
+    margin: -5px 0 0 -5px;
+}
+
+
+// Responsive Design
+@media only screen and (max-width: 1199px) {
+    .nav-link {padding: 13px 2px !important;}
+    .logo {padding: 0 100px 0 10px;}
+    .nav-item {padding: 0 17px}
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar {height: auto !important;}
+    .nav-link {padding: 13px 2px !important;}
+    .logo.mobile {display: block; padding: 10px 0;}
+    .logo {display: none;}
+    .nav-item {padding: 0 17px}
+}

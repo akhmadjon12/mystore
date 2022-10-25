@@ -1,0 +1,60 @@
+@import '../basic';
+
+.sign-in-page {
+    padding: 60px 0 20px;
+    h2 {
+        font-size: 36px;
+        font-weight: 800;
+    }
+    p {font-weight: 600;}
+
+    .col-md-6 {
+        .login-card {
+            width: 70%;
+            margin: 40px 0;
+        }
+        h3 {
+            font-size: 24px;
+            font-weight: 800;
+            padding-bottom: 20px;
+        }
+
+        label {
+            font-weight: 600;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px 25px;
+            margin: 14px 0 20px;
+            font-weight: 600;
+            outline: none;
+            border: 1px solid #777;
+            border-radius: 5px;
+            transition: .3s ease;
+            letter-spacing: .2px;
+
+            &:focus {border: 1px solid ;}
+
+            &[type=button] {
+                border: 1px solid $red;
+                background-color: $red;
+                color: #fff;
+                letter-spacing: 2px;
+
+                &:hover {color: $red; background-color: #fff;}
+            }
+        }
+    }
+
+    .rememberMe {
+        font-size: 14px;
+        i {
+            color: #fff;
+            padding: 5px 4px 5px 5px;
+            background-color: $red;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+    }
+}

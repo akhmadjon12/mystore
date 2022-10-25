@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #fff !important;
+  color: #000000 !important;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-4,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+main {
+  border-top: 1px solid #000;
+  margin: 70px 0 0;
+}
+
+main > div > h3 {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0 100px;
+  background-color: #fff;
+  margin-left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main > div > p {
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1199px) {
+  main > div > h3 {
+    font-size: 34px;
+  }
+  main > div > p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  main > div .col-md-3 {
+    padding: 10px !important;
+  }
+}
+/*# sourceMappingURL=Main.css.map */

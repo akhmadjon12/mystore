@@ -1,0 +1,82 @@
+@import '../basic';
+
+.shopping-cart-page {
+    padding: 60px 0 20px;
+
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    table {
+        margin: 50px 0;
+        
+        th {
+            font-size: 18px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        td {
+            margin: 10px 0;
+            padding: 30px 10px;
+            text-align: center;
+            border: 3px solid $bg-color;
+            font-size: 20px;
+            font-weight: 600;
+         
+            img {width: 120px;}
+            h5 {
+                font-size: 24px;
+                font-weight: 600;
+                padding: 0 20px;
+            }
+            p {padding: 0 20px;}
+
+            button {
+                color: $red;
+                margin: 20px 20px 0;
+                font-weight: 600;
+                text-transform: uppercase;
+                
+                &:hover {color: #fff; background-color: $red;}
+                i {margin-right: 6px;}
+            }
+        }
+    }
+
+    .calc-all {
+        text-align: right;
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 18px;
+            letter-spacing: .2px;
+        }
+        .btn {
+            font-size: 18px;
+            letter-spacing: 1.2px;
+            font-weight: 600;
+            text-transform: uppercase;
+            border: 1px solid $red;
+            margin: 20px 0 0 60px;
+            padding: 10px 60px;
+            &.red {
+                background-color: $red;
+                color: #fff;
+                &:hover {background-color: #fff; color: $black;}
+            }
+
+            &:hover {
+                background-color: $red;
+                color: #fff;
+            }
+
+        }
+    }
+
+}
+

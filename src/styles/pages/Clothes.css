@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #fff !important;
+  color: #000000 !important;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-4,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.clothes-page {
+  padding: 70px 40px 0;
+}
+
+.clothes-page h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.clothes-page .col-md-3 {
+  padding-right: 50px;
+}
+
+.clothes-page .col-md-4 {
+  padding: 30px;
+}
+
+#sort {
+  cursor: pointer;
+  outline: none;
+  padding: 7px;
+  margin: 15px 0 10px;
+  float: right;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  background-color: #fff;
+}
+
+#sort:active {
+  border: 1px solid #000000;
+}
+
+.border-top-1 {
+  border-top: 1px solid #000000;
+}
+
+.liked-ones-page {
+  padding: 60px 0 20px;
+}
+
+.liked-ones-page h2 {
+  font-weight: 600;
+  font-size: 30px;
+  padding: 0 0 40px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .clothes-page .col-md-4 {
+    padding: 20px 8px 0px;
+  }
+}
+/*# sourceMappingURL=Clothes.css.map */

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+// COLORS
+$bg-color: #F5F5F5;
+$black: #000000;
+$light-text: #686868;
+$red: #ED165F;
+
+
+$onHoverShadow: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.1));
+
+* {
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #fff !important;
+  color: $black !important;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-4,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.clickable {cursor: pointer}
+.text-bold {font-weight: 600;}
+.text-right {text-align: right !important;}
+.text-left {text-align: left !important;}
+.text-center {text-align: center !important;}
+
+  @mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin setBgImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

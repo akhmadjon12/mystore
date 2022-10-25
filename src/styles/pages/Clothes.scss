@@ -1,0 +1,49 @@
+@import '../basic';
+
+.clothes-page {
+    padding: 70px 40px 0;
+    
+    h2 {
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .col-md-3 {padding-right: 50px;}
+    .col-md-4 {padding: 30px;}
+}
+
+
+// Sort Button on the top right corner
+
+#sort {
+    cursor: pointer;
+    outline: none;
+    padding: 7px;
+    margin: 15px 0 10px;
+    float: right;
+    transition: .3s ease;
+    background-color: #fff;
+
+
+    &:active {border: 1px solid $black;}
+}
+.border-top-1 {
+    border-top: 1px solid $black;
+}
+
+// Liked Ones Page
+.liked-ones-page {
+    padding: 60px 0 20px;
+    h2 {font-weight: 600; font-size: 30px; padding: 0 0 40px;}
+}
+
+
+
+// Responsive
+@media only screen and (max-width: 1199px) {
+    .clothes-page {
+        .col-md-4 {
+            padding: 20px 8px 0px;
+        }
+    }
+}

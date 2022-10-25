@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #fff !important;
+  color: #000000 !important;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-4,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.user-info h3, .address-book h3, .orders-page h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px 0 15px;
+}
+
+.user-info .card, .address-book .card, .orders-page .card {
+  position: relative;
+  border: 2px solid #ddd;
+  padding: 20px 50px 50px;
+  margin-bottom: 50px;
+}
+
+.user-info .card label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.user-info .card input, .user-info .card select {
+  width: 90%;
+  margin: 10px 0 25px;
+  padding: 10px 20px;
+}
+
+.address-book > div h4, .orders-page h4 {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.address-book > div p, .orders-page p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.order.card {
+  padding: 0;
+  border: none;
+}
+
+.order.card > table {
+  margin: 0 0 20px;
+  border: 2px solid #ddd !important;
+  border-radius: 4px !important;
+}
+
+.order.card > table td {
+  border: 2px solid #ddd;
+  padding: 20px;
+  -webkit-box-shadow: 0 2px 5px #00000028;
+          box-shadow: 0 2px 5px #00000028;
+}
+
+.order.card > table td img {
+  float: left;
+  width: 35%;
+  padding-right: 10px;
+  margin: 30px 0;
+}
+
+.order.card > table td .align-right {
+  width: 65%;
+  float: left;
+  padding-left: 10px;
+}
+
+.order.card > table td h4 {
+  font-weight: 800;
+}
+
+.order.card > table td p {
+  font-weight: 600;
+}
+/*# sourceMappingURL=sub-pages.css.map */

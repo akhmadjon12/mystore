@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  font-family: "Mulish", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #fff !important;
+  color: #000000 !important;
+}
+
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-9,
+.col-sm-3,
+.col-sm-4,
+.col-sm-6,
+.col-sm-9 {
+  float: left;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.category-card h4, .size-card h4, .color-card h4, .price-card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 1px solid #000000;
+  padding: 20px 0 10px;
+}
+
+.category-list, .price-list {
+  list-style-type: none;
+}
+
+.category-list > li, .price-list > li {
+  padding: 2px 10px;
+  margin: 0 0 0 -40px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  border: 1px solid transparent;
+}
+
+.category-list > li.active, .price-list > li.active {
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #000000;
+}
+
+.category-list > li:hover, .price-list > li:hover {
+  background-color: #F5F5F5;
+}
+
+.size-list {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.size-list > li {
+  width: 25%;
+  float: left;
+  cursor: pointer;
+  margin: 10px 8% 10px 0;
+  padding: 5px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 600;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.size-list > li:hover {
+  background-color: #F5F5F5;
+}
+
+.size-list > li.active {
+  background-color: #F5F5F5;
+  border: 1px solid #000000;
+}
+
+@media only screen and (max-width: 1199px) {
+  .size-list > li {
+    width: 25.3%;
+  }
+}
+/*# sourceMappingURL=allFilters.css.map */
